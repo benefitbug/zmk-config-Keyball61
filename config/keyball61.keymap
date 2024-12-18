@@ -34,20 +34,11 @@
             key-positions = <10 11>;
         };
 
-        left-reset {
-            bindings = <&bootloader>;
-            key-positions = <0 1>;
-        };
-
         soft_off_right {
             bindings = <&soft_off>;
             key-positions = <57 60>;
         };
 
-        soft_off_left {
-            bindings = <&soft_off>;
-            key-positions = <50 56>;
-        };
     };
 
     keymap {
