@@ -25,6 +25,10 @@
     quick-tap-ms = <150>;
 };
 
+&soft_off {
+    split-peripheral-off-on-press;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
